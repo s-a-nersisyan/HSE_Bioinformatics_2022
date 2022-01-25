@@ -1,4 +1,3 @@
-'''
 # Task 1
 x = float(input())
 n = int(input())
@@ -6,9 +5,7 @@ for i in range(n):
     if x == float(input()):
         print("Found!")
         break
-'''
 
-'''
 # Task 2
 x = [1, 3, 5, 6]
 y = [2, 4, 7, 8]
@@ -24,9 +21,7 @@ while i < len(x) or j < len(y):
         j += 1
 
 print(result)
-'''
 
-'''
 # Task 3: brute force
 arr = [7, 7, 7, 7, 7, 5, 5, 5, 6, 6, 7]
 for x in arr:
@@ -38,7 +33,6 @@ for x in arr:
     if count >= len(arr) / 2:
         print(x)
         break
-'''
 
 # Task 3: nice algorithm
 a = 0
